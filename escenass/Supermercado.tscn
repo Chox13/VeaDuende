@@ -4765,7 +4765,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7opxq"]
-size = Vector2(23, 19)
+size = Vector2(30, 27)
 
 [node name="Supermercado" type="Node2D"]
 
@@ -4978,14 +4978,14 @@ shape = SubResource("RectangleShape2D_qpthy")
 script = ExtResource("3_rnkv1")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Goblin"]
-position = Vector2(-437, -184)
-scale = Vector2(1.34375, 1.28125)
+position = Vector2(-458, -185)
+scale = Vector2(1.94727, 1.96875)
 sprite_frames = SubResource("SpriteFrames_avrqa")
 animation = &"walking"
-frame_progress = 0.000245072
+frame_progress = 0.0233965
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Goblin"]
-position = Vector2(-439, -173)
+position = Vector2(-462, -168.5)
 shape = SubResource("RectangleShape2D_7opxq")
 
 [node name="Camera2D" type="Camera2D" parent="Goblin"]
