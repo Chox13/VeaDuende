@@ -20,3 +20,14 @@ func play_anim(dir):
 		$AnimatedSprite2D.play("idle")
 	elif player_state=="walking":
 		$AnimatedSprite2D.play("walking")
+		
+
+func _on_Goblin_body_entered(body):
+	if body.name == "Enemy":
+		change_scene_to_game_over()
+
+
+func change_scene_to_game_over():
+	var game_over_scene = load("res://escenass/GameOver.tscn")
+	get_tree().change_scene(game_over_scene)
+	pass
